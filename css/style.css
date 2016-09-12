@@ -1,0 +1,54 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+div {
+    width: 150px;
+    height: 150px;
+    background-color: #0b93d5;
+    border: 1px solid #0b3e6f;
+    border-radius: 4px;
+    margin: 5px;
+    float: left;
+}
+.active {
+background-image:url("/game/img/pingvin.png") ;
+    cursor: pointer;
+}
+
+.start {
+    width: auto;
+    height: auto;
+    background-color: #4ca20b;
+    color: #ffffff;
+    padding: 15px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+.stop {
+    width: auto;
+    height: auto;
+    color: #ffffff;
+    padding: 15px;
+    border-radius: 5px;
+    cursor: pointer;
+    background-color: red;
+}
+.score {
+    width: auto;
+    height: auto;
+    color: #ffffff;
+    border-radius: 5px;
+    background-color: #003eff;
+    padding: 15px;
+}
+.title {
+    width: auto;
+    height: auto;
+    float: none;
+    text-align: center;
+    background-color: inherit;
+    border: none;
+    font-size: 36px;
+    color: #007fff;
+}
